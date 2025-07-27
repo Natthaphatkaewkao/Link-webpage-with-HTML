@@ -1,13 +1,26 @@
 p{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+   text-align: left;
+   font-size: medium;
 }
-h1{
+.h1{
    color: cornflowerblue;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.image1{
-    border-radius: 100%;
+.h2{
+    text-align: center;
+    font-family: cursive;
+}
+.s{
+    background-color: blanchedalmond;
+    color: darkorange;
+    text-align: center;
+}
+.i{
+   color: mediumblue;
+    text-align: center;
+    font-family: sans-serif;
 }
 th{
     background-color: darkgray;
@@ -30,7 +43,7 @@ table{
     background-color: chartreuse;
 }
 .Happlive{
-    background-color: aqua;
+   background-color: indianred;
 }
 .Datacom{
     background-color: fuchsia;
@@ -52,4 +65,13 @@ background-color: aqua;
 }
 .Tuesday,.Wednesday{
     background-color: fuchsia;
+}
+
+.rounded{
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+}
+.body{
+    background-color: bisque;
 }
