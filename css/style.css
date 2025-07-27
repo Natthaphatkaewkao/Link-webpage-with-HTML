@@ -1,0 +1,55 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+h1{
+   color: cornflowerblue;
+    text-align: center;
+}
+.image1{
+    border-radius: 100%;
+}
+th{
+    background-color: darkgray;
+    border: 2px solid black;
+    border-collapse:collapse ;
+}
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.Compro{
+    background-color: goldenrod;
+}
+.intro{
+    background-color: chartreuse;
+}
+.Happlive{
+    background-color: aqua;
+}
+.Datacom{
+    background-color: fuchsia;
+}
+.mat{
+    background-color: aqua;
+}
+.ENG{
+    background-color: chartreuse;
+}
+.Monday,.Friday{
+     background-color: goldenrod;
+}
+.Thursday{
+background-color: aqua;
+}
+.Wednesday{
+background-color: aqua;
+}
+.Tuesday,.Wednesday{
+    background-color: fuchsia;
+}
