@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+/* style the bode*/
+body{
+    font-family: Broadway;
+    margin: 0;
+}
+/* Header/log Title */
+.header{
+    padding: 60px;
+    text-align: center;
+  background: skyblue;
+   color: orangered;
+}
+.navbar{
+    display: flex;
+    background-color: bisque;
+}
+/* Style the top navigation bar */
+.navbar a{
+    color: tomato;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Create two umequal columns that sits next to each other*/
+.side{
+    flex: 30;
+    background-color: crimson;
+    padding: 20px;
+}
+.main{
+    flex: 70%;
+    background-color: steelblue;
+    padding: 20px;
+}
+.fakeimg{
+    background-color: cadetblue;
+    width: 100%;
+    padding: 20px;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: violet;
+}
+/*Respons ive layout when the screen is less than 700px wide
+make the two colums stack on top of each other instead of next to each*/
+@media screen and (max-width:700px){
+    .row ,.navbar{
+        flex-direction: column;
+    }
+}
+   
